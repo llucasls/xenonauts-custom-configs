@@ -22,6 +22,10 @@ $(VENV): requirements.txt
 
 gameconfig.xml: $(GAME_CONFIGS) | $(VENV)
 	$(call CREATE,$^,$@)
+	if test -t 1; \
+		then printf 'Game configuration file \033[4m%s\033[0m was created successfully!\n' "$@"; \
+		else printf 'Game configuration file %s was created successfully!\n' "$@"; \
+	fi
 
 .PHONY: all
 
