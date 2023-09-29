@@ -5,7 +5,7 @@ PIP    = $(VENV)/bin/pip
 TRIADE = $(VENV)/bin/triade
 CREATE = cat $1 | $(TRIADE) -I yaml -O xml > $2
 
-DEFAULT_DIR = data/gameconfig
+DEFAULT_DIR = data/defaultconfig
 CUSTOM_DIR  = data/gameconfig
 
 DEFAULT_CONFIGS = $(wildcard $(DEFAULT_DIR)/*.yml)
