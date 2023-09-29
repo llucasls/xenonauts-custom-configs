@@ -1,0 +1,41 @@
+# GEOSCAPE RADAR RANGE COLOUR - ALPHA VALUE
+  # the alpha value for the radar range colour is calculated basing on the detection chance for that radar
+- tag: radarDetectionChance1
+  attributes:
+    value: 0.10
+    comment: "The radar range treshold for low    detection chance."
+
+- tag: radarDetectionChance2
+  attributes:
+    value: 0.40
+    comment: "The radar range treshold for medium detection chance."
+
+- tag: radarDetectionChance3
+  attributes:
+    value: 0.70
+    comment: "The radar range treshold for high   detection chance."
+
+- tag: radarDetectionChance4
+  attributes:
+    value: 1.00
+    comment: "The radar range treshold for extra  detection chance."
+
+- tag: radarAlpha1
+  attributes:
+    value: 0.30
+    comment: "The radar range display's alpha value at low    detection chance."
+
+- tag: radarAlpha2
+  attributes:
+    value: 0.35
+    comment: "The radar range display's alpha value at medium detection chance."
+
+- tag: radarAlpha3
+  attributes:
+    value: 0.40
+    comment: "The radar range display's alpha value at high   detection chance."
+
+- tag: radarAlpha4
+  attributes:
+    value: 0.45
+    comment: "The radar range display's alpha value at extra  detection chance."

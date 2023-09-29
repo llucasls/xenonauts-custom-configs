@@ -1,0 +1,45 @@
+# DROPSHIP CRASH SURVIVAL CHANCES
+- tag: dropshipCrashSeaDeath
+  attributes:
+    value: 50
+    comment: "The chance for a soldier to die while crashing over sea."
+
+- tag: dropshipCrashSeaWounded
+  attributes:
+    value: 25
+    comment: "The chance for a soldier to survive wounded while crashing over sea."
+
+- tag: dropshipCrashSeaHarmless
+  attributes:
+    value: 25
+    comment: "The chance for a soldier to survive harmless while crashing over sea."
+
+- tag: dropshipCrashEnemyDeath
+  attributes:
+    value: 50
+    comment: "The chance for a soldier to die while crashing over enemy territory."
+
+- tag: dropshipCrashEnemyWounded
+  attributes:
+    value: 25
+    comment: "The chance for a soldier to survive wounded while crashing over enemy territory."
+
+- tag: dropshipCrashEnemyHarmless
+  attributes:
+    value: 25
+    comment: "The chance for a soldier to survive harmless while crashing over enemy territory."
+
+- tag: dropshipCrashFriendlyDeath
+  attributes:
+    value: 25
+    comment: "The chance for a soldier to die while crashing over friendly territory."
+
+- tag: dropshipCrashFriendlyWounded
+  attributes:
+    value: 50
+    comment: "The chance for a soldier to survive wounded while crashing over friendly territory."
+
+- tag: dropshipCrashFriendlyHarmless
+  attributes:
+    value: 25
+    comment: "The chance for a soldier to survive harmless while crashing over friendly territory."

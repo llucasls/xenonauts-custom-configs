@@ -1,0 +1,36 @@
+# UFO DAMAGE PARAMETERS
+  # The game will display Undamaged / Minor Damage / Heavy Damage / etc status for each UFO within these health ranges
+- tag: dmgLevelTreshold1
+  attributes:
+    value: 1.00
+    comment: "Damage threshold for the air combat."
+
+- tag: dmgLevelTreshold2
+  attributes:
+    value: 0.81
+    comment: "Damage threshold for the air combat."
+
+- tag: dmgLevelTreshold3
+  attributes:
+    value: 0.61
+    comment: "Damage threshold for the air combat."
+
+- tag: dmgLevelTreshold4
+  attributes:
+    value: 0.41
+    comment: "Damage threshold for the air combat."
+
+- tag: dmgLevelTreshold5
+  attributes:
+    value: 0.21
+    comment: "Damage threshold for the air combat."
+
+- tag: dmgLevelTreshold6
+  attributes:
+    value: 0.01
+    comment: "Damage threshold for the air combat."
+
+- tag: debugACHitCircles
+  attributes:
+    value: "false"
+    comment: "Use it to show the hit circles in air combat."

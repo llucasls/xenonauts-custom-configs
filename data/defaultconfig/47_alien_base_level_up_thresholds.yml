@@ -1,0 +1,30 @@
+# ALIEN BASE LEVEL UP THRESHOLDS
+- tag: mediumAlienBaseTickerLimit
+  attributes:
+    value: 400
+    comment: "Alien bases are medium sized above this ticker value."
+
+- tag: largeAlienBaseTickerLimit
+  attributes:
+    value: 600
+    comment: "Alien bases are large sized above this ticker value."
+
+- tag: independentAlienBaseGrowth
+  attributes:
+    value: 0
+    comment: "If set to 1, each alien base will grow independently of the AI ticker"
+
+- tag: alienBaseGrowthPerDay
+  attributes:
+    value: 0.0
+    comment: "If bases grow independently, each base will grow this much per day"
+
+- tag: alienBaseStartingTickerMultiplier
+  attributes:
+    value: 1.0
+    comment: "If bases grow independenly, new bases will start at AI ticker times this value"
+
+- tag: alienBaseSupplyGrowth
+  attributes:
+    value: 0
+    comment: "If bases grow independently, each successful Supply Run mission will increase base ticker by this much"

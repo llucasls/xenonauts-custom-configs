@@ -1,0 +1,48 @@
+# GEOSCAPE EVENT NOTIFICATION ALERT TEXT PARAMETERS
+- tag: eventFadeInterval
+  attributes:
+    value: 6
+    comment: "Geoscape Event notfications have three different alpha settings. This is the time (in hours) for an event to fade to a lower alpha setting.."
+
+- tag: eventAlpha1
+  attributes:
+    value: 0.92
+    comment: "Geoscape Event notifications spawn with this alpha value."
+
+- tag: eventAlpha2
+  attributes:
+    value: 0.70
+    comment: "Geoscape Event notifications fall to this alpha value after one eventFadeInterval."
+
+- tag: eventAlpha3
+  attributes:
+    value: 0.60
+    comment: "This is the alpha setting for Geoscape Event notifications after two eventFadeIntervals."
+
+- tag: eventBGAlpha1
+  attributes:
+    value: 0.92
+    comment: "The Geoscape Event notification text background boxes have this opacity at first."
+
+- tag: eventBGAlpha2
+  attributes:
+    value: 0.70
+    comment: "The Geoscape Event notification text background boxes have this opacity after one eventFadeInterval."
+
+- tag: eventBGAlpha3
+  attributes:
+    value: 0.60
+    comment: "The events background has this opacity after two eventFadeInterval."
+
+- tag: eventMarkerSize
+  attributes:
+    value: 16
+    comment: "This is the height of the Geoscape Event notification text background (black rectangle). The text and the maker is 4px smaller than this"
+
+- tag: airplaneNotifications
+  attributes:
+    value: "true"
+    colorRed: 0
+    colorGreen: 1
+    colorBlue: 0
+    comment: "Enables and sets color for log event notifications about airplane status"

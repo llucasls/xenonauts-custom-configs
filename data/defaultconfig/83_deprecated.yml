@@ -1,0 +1,5 @@
+# DEPRECATED
+- tag: forceMissionWing
+  attributes:
+    value: -1
+    comment: "DEPRECATED - 0, 1, 2, 3 forces the alien wings to a specific formation. -1 randomize between the four variations."

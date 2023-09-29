@@ -1,0 +1,129 @@
+# DIFFICULTY MULTIPLIERS
+  # The values for each are multiplied by these numbers
+- tag: alienTickerSpeedEasy
+  attributes:
+    value: 0.8
+
+- tag: alienTickerSpeedNormal
+  attributes:
+    value: 0.9
+
+- tag: alienTickerSpeedVeteran
+  attributes:
+    value: 0.9
+
+- tag: alienTickerSpeedSuperhuman
+  attributes:
+    value: 1.0
+
+- tag: ufoHealthEasy
+  attributes:
+    value: 0.75
+
+- tag: ufoHealthNormal
+  attributes:
+    value: 1.0
+
+- tag: ufoHealthVeteran
+  attributes:
+    value: 1.0
+
+- tag: ufoHealthSuperhuman
+  attributes:
+    value: 1.0
+
+- tag: alienAttributeEasy
+  attributes:
+    value: 0.7
+
+- tag: alienAttributeNormal
+  attributes:
+    value: 0.8
+
+- tag: alienAttributeVeteran
+  attributes:
+    value: 1.0
+
+- tag: alienAttributeSuperhuman
+  attributes:
+    value: 1.25
+
+- tag: alienWeaponDamageEasy
+  attributes:
+    value: 0.6
+
+- tag: alienWeaponDamageNormal
+  attributes:
+    value: 0.8
+
+- tag: alienWeaponDamageVeteran
+  attributes:
+    value: 1.0
+
+- tag: alienWeaponDamageSuperhuman
+  attributes:
+    value: 1.1
+
+- tag: alienWeaponAccuracyEasy
+  attributes:
+    value: 0.6
+
+- tag: alienWeaponAccuracyNormal
+  attributes:
+    value: 0.8
+
+- tag: alienWeaponAccuracyVeteran
+  attributes:
+    value: 1.0
+
+- tag: alienWeaponAccuracySuperhuman
+  attributes:
+    value: 1.25
+
+- tag: humanAirplaneSpeedEasy
+  attributes:
+    value: 1.2
+
+- tag: humanAirplaneSpeedNormal
+  attributes:
+    value: 1.1
+
+- tag: humanAirplaneSpeedVeteran
+  attributes:
+    value: 1.0
+
+- tag: humanAirplaneSpeedSuperhuman
+  attributes:
+    value: 1.0
+
+- tag: humanAirplaneRangeEasy
+  attributes:
+    value: 1.2
+
+- tag: humanAirplaneRangeNormal
+  attributes:
+    value: 1.1
+
+- tag: humanAirplaneRangeVeteran
+  attributes:
+    value: 1.0
+
+- tag: humanAirplaneRangeSuperhuman
+  attributes:
+    value: 0.8
+
+- tag: maintenanceModifierEasy
+  attributes:
+    value: 0.75
+
+- tag: maintenanceModifierNormal
+  attributes:
+    value: 0.9
+
+- tag: maintenanceModifierVeteran
+  attributes:
+    value: 1.0
+
+- tag: maintenanceModifierSuperhuman
+  attributes:
+    value: 1.0

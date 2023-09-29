@@ -1,0 +1,16 @@
+# DISCLAIMER SCREEN TEXT
+- tag: disclaimerTextTimeout
+  attributes:
+    value: 0
+    comment: "The disclaimer text will be shown for this many seconds."
+
+- tag: disclaimerTextSize
+  attributes:
+    value: 32
+    comment: "The disclaimer text will be shown with this size at 1024x768 resolution."
+
+- tag: disclaimerText
+  attributes:
+    value: "Xenonauts Beta
+      This is a beta build of the indie strategy game Xenonauts. It does not represent the final quality of the game.It is best viewed in 16:10 or 16:9 resolutions as it has not been formatted for 4:3 resolutions yet.Please report any bugs encountered on our forums at http://www.goldhawkinteractive.com/forums."
+    comment: "This is the disclaimer text."

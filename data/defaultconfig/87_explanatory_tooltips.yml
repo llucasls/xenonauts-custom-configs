@@ -1,0 +1,5 @@
+# EXPLANATORY TOOLTIPS
+- tag: explanatoryTooltipsDefault
+  attributes:
+    value: auto
+    comment: "Default value for explananatory tooltips option when creating new game (auto,yes,no,briefings)."

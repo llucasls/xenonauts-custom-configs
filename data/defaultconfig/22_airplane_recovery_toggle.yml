@@ -1,0 +1,5 @@
+# AIRPLANE RECOVERY TOGGLE
+- tag: airplaneRecovery
+  attributes:
+    value: 1
+    comment: "If set to 1, lost airplanes will be recovered. Otherwise they are permanently destroyed"

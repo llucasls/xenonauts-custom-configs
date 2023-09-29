@@ -1,0 +1,5 @@
+# UFO TICKER PASSIVE INCREASE RATE
+- tag: alienAITickerIdle
+  attributes:
+    value: 0.002315
+    comment: "The ticker will increase by this amount every in-game minute, irrespective of whether any alien activity is taking place. This is to force the invasion forwards even if the player is playing extremely well."

@@ -1,0 +1,5 @@
+# INSTANT CONSTRUCTION HACK
+- tag: oneDayHack
+  attributes:
+    value: "false"
+    comment: "When true, all researches and manufactures takes only one day."

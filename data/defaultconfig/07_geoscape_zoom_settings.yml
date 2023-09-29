@@ -1,0 +1,10 @@
+# GEOSCAPE ZOOM SETTINGS
+- tag: baseDetailZoom
+  attributes:
+    value: 0.5
+    comment: "Detail text appears for cities and aircrafts above this zoom level."
+
+- tag: zoomSpeed
+  attributes:
+    value: 0.1
+    comment: "The amount of map zoom for one scroll wheel tick"

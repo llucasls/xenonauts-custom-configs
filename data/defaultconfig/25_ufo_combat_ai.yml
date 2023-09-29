@@ -1,0 +1,16 @@
+# UFO COMBAT AI
+- tag: airCombatAIThinkChance
+  attributes:
+    difficultyEasy: 0
+    difficultyNormal: 0
+    difficultyVeteran: 0
+    difficultySuperhuman: 1
+    comment: "This controls UFO AI thinking in Air Combat. The higher this value is (between 0 and 1), the more likely UFOs will each second consider swapping to a better target."
+
+- tag: ufoEscortInboundFactor
+  attributes:
+    valueEasy: 0
+    valueNormal: 0
+    valueVeteran: 0.5
+    valueSuperhuman: 1
+    comment: "How much UFO escorts will face towards interceptors at the beginning of Air Combat. From 0 (=normal heading) to 1 (=directly towards interceptors)."

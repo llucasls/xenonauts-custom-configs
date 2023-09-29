@@ -1,0 +1,5 @@
+# AIR COMBAT VARIABLES
+- tag: airCombatDamageRandomChance
+  attributes:
+    value: 0
+    comment: "Damage spread of weapons in air combat (+/-%)"

@@ -1,0 +1,28 @@
+# GEOSCAPE EVENTS PENALTY
+  # Penalties applied to the region relations of the continent (or nearest continent, if over sea) when one of the following events happens
+- tag: eventsPenalty
+  children:
+  - tag: Abduction
+    attributes:
+      land: 12
+      sea: 12
+
+  - tag: AirlinerShotdown
+    attributes:
+      land: 15
+      sea: 15
+
+  - tag: MinorCivilianAttack
+    attributes:
+      land: 15
+      sea: 15
+
+  - tag: MajorCivilianAttack
+    attributes:
+      land: 35
+      sea: 35
+
+  - tag: MajorMilitaryAttack
+    attributes:
+      land: 40
+      sea: 40

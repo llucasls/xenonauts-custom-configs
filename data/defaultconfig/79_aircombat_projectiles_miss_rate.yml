@@ -1,0 +1,5 @@
+# AIRCOMBAT PROJECTILES MISS RATE
+- tag: ACProjMissRate
+  attributes:
+    value: 0.0
+    comment: "Chance that a projectile misses its target in air combat. Between 0.0 and 1.0"

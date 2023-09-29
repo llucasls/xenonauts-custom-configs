@@ -1,0 +1,15 @@
+# GEOSCAPE BACKGROUND COLOUR
+- tag: earthBGColorRed
+  attributes:
+    value: 0
+    comment: "The background color of the earth view. Red component."
+
+- tag: earthBGColorGreen
+  attributes:
+    value: 0
+    comment: "The background color of the earth view. Green component."
+
+- tag: earthBGColorBlue
+  attributes:
+    value: 0
+    comment: "The background color of the earth view. Blue component."

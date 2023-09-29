@@ -1,0 +1,5 @@
+# GAME START TICKER SCORE
+- tag: startingAlienTicker
+  attributes:
+    value: 0
+    comment: "The game starts with this alien ticker value."

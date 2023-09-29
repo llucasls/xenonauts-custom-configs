@@ -1,0 +1,19 @@
+# SAVE GAME COMPATIBILITY
+  # This is primarily for being able to use XCE saves with official GH releases. Change the value only temporarily, using other formats for normal play will lose some data.
+
+  # Allowed values are "xce" for Community Edition, "xce033" for X:CE 0.33, "gh107" for official release 1.07 (and up), and "gh15x" for official 1.5 release (and up).
+- tag: saveCompatibility
+  attributes:
+    value: xce
+    comment: "The version of game for which to write save files."
+
+  # This is mainly meant for testing and reporting bugs. It works even in Ironman mode, but if it is used to actually circumvent Ironman, that is obviously cheating.
+- tag: endTurnAutosave
+  attributes:
+    value: "false"
+    comment: "If enabled, game is autosaved right after the player's turn ends. Only for debugging purposes."
+
+- tag: maxFpsDuringHiddenMovement
+  attributes:
+    value: 5
+    comment: "Max number of frames drawn when there is nothing to see during ground combat hidden movement (less makes alien turns faster)."

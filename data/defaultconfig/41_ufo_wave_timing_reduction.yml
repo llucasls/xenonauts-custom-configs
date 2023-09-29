@@ -1,0 +1,5 @@
+# UFO WAVE TIMING REDUCTION
+- tag: alienWavePeriodMultiplier
+  attributes:
+    value: 0.0
+    comment: "The time between UFO attack waves is reduced by the alien ticker score multiplied by this value."

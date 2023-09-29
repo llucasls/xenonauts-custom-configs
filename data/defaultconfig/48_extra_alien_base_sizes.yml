@@ -1,0 +1,45 @@
+# EXTRA ALIEN BASE SIZES (FOR CUSTOM MISSIONS)
+- tag: alienBaseMaxTicker
+  attributes:
+    value: 1_000
+    comment: "Alien base ticker will not exceed this value. Increase to use the extra sizes!"
+
+- tag: extra1AlienBaseTickerLimit
+  attributes:
+    value: 2_000
+    comment: "Extra Size 1"
+
+- tag: extra2AlienBaseTickerLimit
+  attributes:
+    value: 3_000
+    comment: "Extra Size 2"
+
+- tag: extra3AlienBaseTickerLimit
+  attributes:
+    value: 4_000
+    comment: "Extra Size 3"
+
+- tag: extra4AlienBaseTickerLimit
+  attributes:
+    value: 5_000
+    comment: "Extra Size 4"
+
+- tag: extra5AlienBaseTickerLimit
+  attributes:
+    value: 6_000
+    comment: "Extra Size 5"
+
+- tag: extra6AlienBaseTickerLimit
+  attributes:
+    value: 7_000
+    comment: "Extra Size 6"
+
+- tag: extra7AlienBaseTickerLimit
+  attributes:
+    value: 8_000
+    comment: "Extra Size 7"
+
+- tag: extra8AlienBaseTickerLimit
+  attributes:
+    value: 9_000
+    comment: "Extra Size 8"

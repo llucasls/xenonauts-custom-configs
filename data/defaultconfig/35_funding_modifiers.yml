@@ -1,0 +1,66 @@
+# FUNDING MODIFIERS
+  # Each month, a funding region will pay the player $500 for each relations value point, multiplied by this modifier
+- tag: continentModNA
+  attributes:
+    value: 1.4
+    comment: "North America modifies its funding by this value."
+
+- tag: continentModCA
+  attributes:
+    value: 1.15
+    comment: "Central America modifies its funding by this value."
+
+- tag: continentModSA
+  attributes:
+    value: 1.15
+    comment: "South America modifies its funding by this value."
+
+- tag: continentModEU
+  attributes:
+    value: 1.15
+    comment: "Europe modifies its funding by this value."
+
+- tag: continentModRU
+  attributes:
+    value: 1.5
+    comment: "USSR modifies its funding by this value."
+
+- tag: continentModNAF
+  attributes:
+    value: 0.80
+    comment: "North Africa modifies its funding by this value."
+
+- tag: continentModSAF
+  attributes:
+    value: 1.15
+    comment: "South Africa modifies its funding by this value."
+
+- tag: continentModME
+  attributes:
+    value: 0.85
+    comment: "Middle East modifies its funding by this value."
+
+- tag: continentModIN
+  attributes:
+    value: 0.85
+    comment: "Indochina modifies its funding by this value."
+
+- tag: continentModAA
+  attributes:
+    value: 1.15
+    comment: "Australasia modifies its funding by this value."
+
+- tag: forecastChangeRounding
+  attributes:
+    value: 1_000
+    comment: "The forecast funding change shown on geoscape will be rounded to multiples of this value"
+
+- tag: forecastChangeImpreciseLevel
+  attributes:
+    value: 0
+    comment: "The forecast funding change shown on geoscape will be shown as text depending on (not) exceeding this this value, if not 0."
+
+- tag: relationsCap
+  attributes:
+    value: 2.0
+    comment: "Multiplied by the starting relations score for each region to give the maximum value that nations relations can reach"

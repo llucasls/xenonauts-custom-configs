@@ -1,0 +1,10 @@
+# RESEARCH MISSION (Passive)
+- tag: researchTicksPerMinute
+  attributes:
+    value: 0
+    comment: "An alien research mission generates this many alien ticker points per minute of the UFO being on the map."
+
+- tag: researchAbductionEventChance
+  attributes:
+    value: 20
+    comment: "An alien research mission has this percentage chance of generating an Abduction event each hour."

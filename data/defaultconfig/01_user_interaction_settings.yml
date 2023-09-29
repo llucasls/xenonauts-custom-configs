@@ -1,0 +1,35 @@
+# USER INTERACTION SETTINGS
+- tag: doubleClickRate.
+  attributes:
+    value: 200
+    comment: "The maximum amount of time in milliseconds between two clicks required for the game to register a double click."
+
+- tag: buttonRepeatTime
+  attributes:
+    value: 0.3
+    comment: "Pressing and holding a button makes it repeat in this interval (seconds) - for instance, holding down the Hire Scientist button etc"
+
+- tag: buttonRepeatAcceleration
+  attributes:
+    value: 0.80
+    comment: "Button repeating interval multiplied by this on every click. This causes the rate of clicks to speed up the longer you hold the button down for."
+
+- tag: buttonsOverlapAdjust
+  attributes:
+    value: 0.3
+    comment: "Adjust the overlap rate for buttons to be listed in the button chooser - the lower this value is, the nearer a button can be from the pressed one without being included in the list."
+
+- tag: reverseMouseWheelNextSoldier
+  attributes:
+    value: "false"
+    comment: "By default mouse wheel in ground combat goes to next soldier on wheelup and previous on wheeldown. This reverses the order."
+
+- tag: mouseWheelChangesCameraLevel
+  attributes:
+    value: "true"
+    comment: "Makes the mouse wheel change camera level in ground combat, instead of going to next/previous soldier."
+
+- tag: mouseWheelFireMode
+  attributes:
+    value: "false"
+    comment: "Makes the mouse wheel change fire mode in ground combat when firing is active, instead of the normal wheel action."

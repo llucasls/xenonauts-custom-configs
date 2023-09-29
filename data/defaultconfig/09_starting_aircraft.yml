@@ -1,0 +1,20 @@
+# STARTING AIRCRAFT 
+- tag: startingAirplane0
+  attributes:
+    value: airplane.human.chinook
+    comment: "This is the starting dropship."
+
+- tag: startingAirplane1
+  attributes:
+    value: airplane.human.f17
+    comment: "This is the first starting airplane."
+
+- tag: startingAirplane2
+  attributes:
+    value: airplane.human.f17
+    comment: "This is the second starting airplane."
+
+- tag: startingAirplane3
+  attributes:
+    value: ""
+    comment: "This is the third starting airplane."

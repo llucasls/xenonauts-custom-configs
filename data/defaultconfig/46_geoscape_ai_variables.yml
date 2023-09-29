@@ -1,0 +1,30 @@
+# GEOSCAPE AI VARIABLES
+- tag: minMissionCount
+  attributes:
+    value: 3
+    comment: "This is the minimum number of mission for a wave."
+
+- tag: maxMissionCount
+  attributes:
+    value: 7
+    comment: "This is the maximum number of mission for a wave. Numbers from the next two parameters will be added to it."
+
+- tag: maxMissionAlienBaseModifier
+  attributes:
+    value: 1
+    comment: "Add this much to maxMissionCount for every alien base on the map"
+
+- tag: maxMissionHumanBaseModifier
+  attributes:
+    value: 0
+    comment: "Add this much to maxMissionCount for every human base on the map"
+
+- tag: highBandTicker
+  attributes:
+    value: 700
+    comment: "This is the ticker value from where the maxMissionCount missions are going to be spawned."
+
+- tag: parabolicPower
+  attributes:
+    value: 0.5
+    comment: "Hard to explain here."

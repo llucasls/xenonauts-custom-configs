@@ -1,0 +1,5 @@
+# TEXTS AUTOSCALING
+- tag: autoscaleTexts
+  attributes:
+    value: "false"
+    comment: "Autoscales texts to fit container. For translations."

@@ -1,0 +1,20 @@
+# GEOSCAPE FLIGHT PATH COLOUR - DIRECTION PULSE ANIMATION
+- tag: flightPathAnimColorR
+  attributes:
+    value: 0.8313
+    comment: "The color for the flight path animation display."
+
+- tag: flightPathAnimColorG
+  attributes:
+    value: 0.3568
+    comment: "The color for the flight path animation display."
+
+- tag: flightPathAnimColorB
+  attributes:
+    value: 0.01
+    comment: "The color for the flight path animation display."
+
+- tag: flightPathAnimColorA
+  attributes:
+    value: 0.8
+    comment: "The color for the flight path animation display."

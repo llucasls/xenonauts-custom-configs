@@ -1,0 +1,15 @@
+# GEOSCAPE REGION BORDER COLOUR
+- tag: continentEdgeColorRed
+  attributes:
+    value: 0
+    comment: "The edge color of the continents. Red component."
+
+- tag: continentEdgeColorGreen
+  attributes:
+    value: 0.7
+    comment: "The edge color of the continents. Green component."
+
+- tag: continentEdgeColorBlue
+  attributes:
+    value: 0
+    comment: "The edge color of the continents. Blue component."

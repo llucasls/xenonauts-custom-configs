@@ -1,0 +1,15 @@
+# ADVANCED BUILDING BONUSES
+- tag: lidarArrayEfficiency
+  attributes:
+    value: 1.25
+    comment: "The radar range boost of the LIADAR array."
+
+- tag: quantumLabEfficiency
+  attributes:
+    value: 1.50
+    comment: "The lab efficiency boost of the LIADAR array."
+
+- tag: nanotechWsEfficiency
+  attributes:
+    value: 1.50
+    comment: "The workshop efficiency boost of the LIADAR array."

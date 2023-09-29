@@ -1,0 +1,12 @@
+# STARTING PERSONNEL
+- tag: startingSoldiers
+  attributes:
+    value: 10
+
+- tag: startingScientists
+  attributes:
+    value: 10
+
+- tag: startingTechnicians
+  attributes:
+    value: 10

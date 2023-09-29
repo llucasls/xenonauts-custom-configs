@@ -1,0 +1,5 @@
+# UFO WAVE TIMING BASIC VALUE
+- tag: alienWavePeriod
+  attributes:
+    value: 7_200
+    comment: "This is the base value for time between UFO attack waves at the start of the game. It will fall as the alien ticker score increases."

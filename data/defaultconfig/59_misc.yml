@@ -1,0 +1,70 @@
+# MISC
+- tag: ufoProtectionDistance
+  attributes:
+    value: 2_000
+    comment: "This is the maximum distance until the AI is protecting crashed UFOs."
+
+- tag: ufoProtectionChanceLimit
+  attributes:
+    value: 1_000
+    comment: "This is the limit of the protection mission launch."
+
+- tag: customSoldierCreationChance
+  attributes:
+    value: 5
+    comment: "This is the chance that a custom soldier will be brought instead of a normal one."
+
+- tag: labSpacePerBuilding
+  attributes:
+    value: 15
+    comment: "Lab space will be increased per laboratory."
+
+- tag: manSpacePerBuilding
+  attributes:
+    value: 15
+    comment: "Workshop space will be increased per workshop."
+
+- tag: livSpacePerBuilding
+  attributes:
+    value: 35
+    comment: "Living space will be increased per living quarters."
+
+- tag: powerCoresExplodeChance
+  attributes:
+    value: 20
+    comment: "The chance that UFO power cores will explode on UFO crash."
+
+- tag: powerCoreExplosionRadius
+  attributes:
+    value: 5.0
+    comment: "The blast radius of the power core when it explodes on crash"
+
+- tag: powerCoreFireChance
+  attributes:
+    value: 60
+    comment: "The % chance a tile will be affected by fire when the power cores explode"
+
+- tag: killCrewOnCrashChance
+  attributes:
+    value: 25
+    comment: "The chance for an alien to be killed on UFO crash when power cores don't explode."
+
+- tag: killCrewOnPowerCoreExplodedChance
+  attributes:
+    value: 25
+    comment: "The chance for an alien to be killed on UFO crash when power cores explode."
+
+- tag: instantResearchesPopupDelay
+  attributes:
+    value: 24
+    comment: "Delay before showing instant-completing researches, in hours"
+
+- tag: instantResearchesPopupDelayVariation
+  attributes:
+    value: 0
+    comment: "Instant-completing researches delay will vary randomly by at most this many hours"
+
+- tag: useStaticEscortChance
+  attributes:
+    value: 0
+    comment: "Sets whether the chance of a UFO spawning with an escort is a flat % drawn from the AM_* files."

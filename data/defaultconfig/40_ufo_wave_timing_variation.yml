@@ -1,0 +1,5 @@
+# UFO WAVE TIMING VARIATION
+- tag: alienWavePeriodVariation
+  attributes:
+    value: 0.5
+    comment: "Percent variation added or subtracted to alienWavePeriod"

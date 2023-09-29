@@ -1,0 +1,16 @@
+# AIRCOMBAT PROJECTILE COLOR
+- tag: projectileColorUfo
+  attributes:
+    r: 0.80
+    g: 0.00
+    b: 0.00
+    a: 1.00
+    comment: "The color for projectiles shot by UFOs"
+
+- tag: projectileColorHuman
+  attributes:
+    r: 0.08
+    g: 0.84
+    b: 0.02
+    a: 1.00
+    comment: "The color for projectiles shot by human interceptors"

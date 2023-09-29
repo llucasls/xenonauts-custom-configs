@@ -1,0 +1,15 @@
+# STARTING UFOS FOR THE aircmbt TEST
+- tag: acTestUFO1
+  attributes:
+    value: airplane.alien.interceptor
+    comment: "This is the main UFO."
+
+- tag: acTestUFO2
+  attributes:
+    value: airplane.alien.interceptor
+    comment: "This is the first UFO escort."
+
+- tag: acTestUFO3
+  attributes:
+    value: airplane.alien.interceptor
+    comment: "This is the second UFO escort."

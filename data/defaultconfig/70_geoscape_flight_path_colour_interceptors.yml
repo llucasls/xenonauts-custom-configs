@@ -1,0 +1,20 @@
+# GEOSCAPE FLIGHT PATH COLOUR - INTERCEPTORS
+- tag: flightPathColorR
+  attributes:
+    value: 0.4
+    comment: "The color for the flight path display."
+
+- tag: flightPathColorG
+  attributes:
+    value: 0.0
+    comment: "The color for the flight path display."
+
+- tag: flightPathColorB
+  attributes:
+    value: 0.0
+    comment: "The color for the flight path display."
+
+- tag: flightPathColorA
+  attributes:
+    value: 0.8
+    comment: "The color for the flight path display."

@@ -1,0 +1,5 @@
+# GEOSCAPE DECORATIVE GRID OVERLAY OPACITY
+- tag: gridAlpha
+  attributes:
+    value: 0.05
+    comment: "The alpha value for the grid effect over the earth view."

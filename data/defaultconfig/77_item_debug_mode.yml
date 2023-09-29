@@ -1,0 +1,5 @@
+# ITEM DEBUG MODE
+- tag: debugItems
+  attributes:
+    value: "false"
+    comment: "When true, the player can increase item stocks at the store."

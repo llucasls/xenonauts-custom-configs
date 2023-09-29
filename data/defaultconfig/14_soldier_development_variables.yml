@@ -1,0 +1,90 @@
+# SOLDIER DEVELOPMENT VARIABLES
+- tag: soldierDevelopment
+  # Soldiers develop their attributes by using them. Each time the soldier performs a certain action, he will gain a "progress point" in that attribute. Once he reaches the "pointsToProgress" value, the attribute will increase by one point. These progress points are cumulative and are stored from mission to mission.
+  children:
+  - tag: APProgress
+    attributes:
+      pointsToProgress: 250
+      maxPointsInSingleBattle: 500
+      globalMaxProgress: 98
+      comment: "A progress point is earned every time a soldier spends a TU on a mission"
+
+  - tag: strengthProgress
+    attributes:
+      pointsToProgress: 20
+      maxPointsInSingleBattle: 20
+      globalMaxProgress: 98
+      strengthCoeff: 80
+      comment: "Points are given when soldier moves one tile while carrying more than strengthCoeff percent of its maximum carry weight"
+
+  - tag: accuracyProgress
+    attributes:
+      pointsToProgress: 1
+      maxPointsInSingleBattle: 1
+      globalMaxProgress: 98
+      comment: "Points are given when a soldier attempts to fire at a valid hostile enemy within weapon range * 1.5"
+
+  - tag: reflexesProgress
+    attributes:
+      pointsToProgress: 1
+      maxPointsInSingleBattle: 1
+      globalMaxProgress: 98
+      comment: "A progress point is gained when a soldier performs a Reaction Fire test (it doesn't matter whether he passes or fails it)"
+
+  - tag: braveryProgress
+    attributes:
+      pointsToProgress: 1
+      maxPointsInSingleBattle: 1
+      globalMaxProgress: 98
+      comment: "A progress point is earned whenever a soldier panics in battle"
+
+  - tag: resilienceProgress
+    attributes:
+      pointsToProgress: 5
+      globalMaxProgress: 97
+      comment: "A progress points is earned every time the soldier gets a skillup in any other attribute"
+
+- tag: soldierRanks
+  # Soldiers increase their ranking when they have a certain number of rank points. A rank point is gained each time an AP, strength, accuracy, reflexes or bravery progress is done.
+  children:
+  - tag: Private
+    attributes:
+      rankPoints: 0
+
+  - tag: Corporal
+    attributes:
+      rankPoints: 3
+
+  - tag: Sergeant
+    attributes:
+      rankPoints: 9
+
+  - tag: Lieutenant
+    attributes:
+      rankPoints: 16
+
+  - tag: Captain
+    attributes:
+      rankPoints: 30
+
+  - tag: Major
+    attributes:
+      rankPoints: 45
+
+  - tag: Commander
+    attributes:
+      rankPoints: 75
+
+  - tag: Colonel
+    attributes:
+      rankPoints: 100
+
+- tag: medalBraveryBonus
+  attributes:
+    value: 1
+    comment: "Sets the bravery bonus given by medals"
+
+- tag: suppressionGivesBravery
+  attributes:
+    value: 0
+    comment: "If true, soldiers suppressed by aliens will gain bravery advancement points as well as gaining points for panicking"

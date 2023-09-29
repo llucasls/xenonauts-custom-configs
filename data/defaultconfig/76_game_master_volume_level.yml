@@ -1,0 +1,5 @@
+# GAME MASTER VOLUME LEVEL
+- tag: MasterVolume
+  attributes:
+    value: 1
+    comment: "This is the global volume level."

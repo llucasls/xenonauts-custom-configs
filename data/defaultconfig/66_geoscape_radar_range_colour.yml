@@ -1,0 +1,30 @@
+# GEOSCAPE RADAR RANGE COLOUR
+- tag: radarRangeColorRed
+  attributes:
+    value: 0.1882
+    comment: "The color of the radar range display. Red component."
+
+- tag: radarRangeColorGreen
+  attributes:
+    value: 0.4196
+    comment: "The color of the radar range display. Green component."
+
+- tag: radarRangeColorBlue
+  attributes:
+    value: 0.529
+    comment: "The color of the radar range display. Blue component."
+
+- tag: radarPossibleRangeColorRed
+  attributes:
+    value: 0.3
+    comment: "The color of the possible radar range display. Red component."
+
+- tag: radarPossibleRangeColorGreen
+  attributes:
+    value: 0.0
+    comment: "The color of the possible radar range display. Green component."
+
+- tag: radarPossibleRangeColorBlue
+  attributes:
+    value: 0.0
+    comment: "The color of the possible radar range display. Blue component."

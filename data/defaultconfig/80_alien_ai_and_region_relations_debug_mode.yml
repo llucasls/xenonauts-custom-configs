@@ -1,0 +1,5 @@
+# ALIEN AI AND REGION RELATIONS DEBUG MODE
+- tag: showAIDebug
+  attributes:
+    value: "false"
+    comment: "When true, the ai debug panel is shown."

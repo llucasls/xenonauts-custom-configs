@@ -1,0 +1,42 @@
+# CONSTRUCTION MISSION PERAMETERS
+  # These variables stop alien base construction missions being spawned too frequently - if this is removed then they will spawn in almost every UFO wave after they become available to the aliens. The delay values are the time (in days) that must elapse between two construction missions spawning.
+- tag: constructionMissionTickerLimit1
+  attributes:
+    value: 600
+    comment: "Alien construction missions will be delayed by constructionMissionDelay1 if the ticker is greater than this."
+
+- tag: constructionMissionTickerLimit2
+  attributes:
+    value: 400
+    comment: "Alien construction missions will be delayed by constructionMissionDelay2 if the ticker is greater than this."
+
+- tag: constructionMissionTickerLimit3
+  attributes:
+    value: 200
+    comment: "Alien construction missions will be delayed by constructionMissionDelay3 if the ticker is greater than this."
+
+
+- tag: constructionMissionDelay1
+  attributes:
+    value: 30
+    comment: "See above."
+
+- tag: constructionMissionDelay2
+  attributes:
+    value: 25
+    comment: "See above."
+
+- tag: constructionMissionDelay3
+  attributes:
+    value: 20
+    comment: "See above."
+
+- tag: constructionMissionDelay4
+  attributes:
+    value: 15
+    comment: "Alien construction missions will be delayed by this if the ticker is smaller than constructionMissionTickerLimit3."
+
+- tag: MaxAlienBases
+  attributes:
+    value: 3
+    comment: "Maximum number of alien bases before the game stops calling additional construction missions."

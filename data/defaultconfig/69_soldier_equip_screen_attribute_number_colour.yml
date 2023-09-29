@@ -1,0 +1,40 @@
+# SOLDIER EQUIP SCEEN ATTRIBUTE NUMBER COLOUR
+- tag: lowStatColorR
+  attributes:
+    value: 0.9
+    comment: "The color for the soldier statisics when the value is low."
+
+- tag: lowStatColorG
+  attributes:
+    value: 0.5
+    comment: "The color for the soldier statisics when the value is low."
+
+- tag: lowStatColorB
+  attributes:
+    value: 0.1
+    comment: "The color for the soldier statisics when the value is low."
+
+- tag: lowStatColorA
+  attributes:
+    value: 1.0
+    comment: "The color for the soldier statisics when the value is low."
+
+- tag: highStatColorR
+  attributes:
+    value: 0.0
+    comment: "The color for the soldier statisics when the value is high."
+
+- tag: highStatColorG
+  attributes:
+    value: 1.0
+    comment: "The color for the soldier statisics when the value is high."
+
+- tag: highStatColorB
+  attributes:
+    value: 0.4
+    comment: "The color for the soldier statisics when the value is high."
+
+- tag: highStatColorA
+  attributes:
+    value: 1.0
+    comment: "The color for the soldier statisics when the value is high."
