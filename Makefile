@@ -3,7 +3,7 @@ PYTHON = python3
 VENV   = $(CURDIR)/.venv
 PIP    = $(VENV)/bin/pip
 TRIADE = $(VENV)/bin/triade
-CREATE = cat $1 | $(TRIADE) -I yaml -O xml > $2
+CREATE = cat $1 | $(TRIADE) -I yaml -o $2
 
 DEFAULT_DIR = data/defaultconfig
 CUSTOM_DIR  = data/gameconfig
