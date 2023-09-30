@@ -8,10 +8,16 @@ CREATE = cat $1 | $(TRIADE) -I yaml -O xml > $2
 DEFAULT_DIR = data/defaultconfig
 CUSTOM_DIR  = data/gameconfig
 
+ifdef USE_DEFAULT
 DEFAULT_CONFIGS = $(wildcard $(DEFAULT_DIR)/*.yml)
 GAME_CONFIGS    = $(foreach FILE,$(DEFAULT_CONFIGS),\
                   $(if $(wildcard $(FILE:$(DEFAULT_DIR)%=$(CUSTOM_DIR)%)),\
                   $(FILE:$(DEFAULT_DIR)%=$(CUSTOM_DIR)%),$(FILE)))
+else
+HEADER_FILE  = $(if $(wildcard $(CUSTOM_DIR)/00_header.yml),,\
+               $(DEFAULT_DIR)/00_header.yml)
+GAME_CONFIGS = $(HEADER_FILE) $(wildcard $(CUSTOM_DIR)/*.yml)
+endif
 
 all: gameconfig.xml
 
