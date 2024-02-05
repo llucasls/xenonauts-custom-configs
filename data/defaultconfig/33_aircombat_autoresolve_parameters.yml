@@ -1,15 +1,15 @@
 # AIRCOMBAT AUTORESOLVE PARAMETERS
-- tag: AACStrengthModifier
+- tag_name: AACStrengthModifier
   attributes:
     value: 10
     comment: "A percent random bonus (or penalty) of maximum this amount is applied to the strength calculation for both sides"
 
-- tag: AACHealthModifier
+- tag_name: AACHealthModifier
   attributes:
     value: 20
     comment: "A percent variation of this amount is given to the health damage done to the winning squadron"
 
-- tag: AACHarmlessWinRate
+- tag_name: AACHarmlessWinRate
   attributes:
     value: 150
     comment: "The winner squadron will result harmless if its strength coeff is more than AACHarmlessWinRate % the loser's one"

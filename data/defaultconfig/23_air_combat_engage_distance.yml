@@ -1,5 +1,5 @@
 # AIR COMBAT ENGAGE DISTANCE
-- tag: airCombatEngageDistance
+- tag_name: airCombatEngageDistance
   attributes:
     value: 150
     comment: "The distance (in km) at which an intercepting airplane engages an ufo (or viceversa)"

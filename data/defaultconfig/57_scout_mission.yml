@@ -1,5 +1,5 @@
 # SCOUT MISSION (Aggressive)
-- tag: scoutTicksPerMinute
+- tag_name: scoutTicksPerMinute
   attributes:
     value: 0
     comment: "An alien scout mission generates this many alien ticker points per minute of the UFO being on the map."

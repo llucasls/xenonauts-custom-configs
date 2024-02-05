@@ -1,5 +1,5 @@
 # ESCAPED UFO REINFORCEMENT CHANCE
-- tag: reinforcementChance
+- tag_name: reinforcementChance
   attributes:
     value: 50
-    comment: "This is the percentage chance that a UFO that escapes to space after escaping air combat will return in the next UFO wave and attempt to complete its mission."
+    comment: "This is the percentag_namee chance that a UFO that escapes to space after escaping air combat will return in the next UFO wave and attempt to complete its mission."

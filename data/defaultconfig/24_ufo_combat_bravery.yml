@@ -1,5 +1,5 @@
 # UFO COMBAT BRAVERY
-- tag: airCombatAICurage
+- tag_name: airCombatAICurage
   attributes:
     value: 0
     comment: "This controls the bravery of UFOs in Air Combat. The lower this value is (between 0 and 1), the less likely UFOs are to flee."

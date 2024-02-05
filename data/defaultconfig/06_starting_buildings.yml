@@ -2,70 +2,70 @@
 # "Type" must match the name of the building in buildings.xml.  "xposition" and "ypoisition" indicate the position
 # of the top-left corner of the building along the x and y axis, with 0 used for the first row/column.  Orientation
 # indicates whether the building is placed vertically or horizontally; use 0 for vertical and 90 for horizontal
-- tag: baseBuilding0
+- tag_name: baseBuilding0
   attributes:
     type: Hangar
     xposition: 1
     yposition: 0
     orientation: 0
 
-- tag: baseBuilding1
+- tag_name: baseBuilding1
   attributes:
     type: Hangar
     xposition: 2
     yposition: 0
     orientation: 0
 
-- tag: baseBuilding2
+- tag_name: baseBuilding2
   attributes:
     type: Hangar
     xposition: 3
     yposition: 0
     orientation: 0
 
-- tag: baseBuilding3
+- tag_name: baseBuilding3
   attributes:
     type: Hangar
     xposition: 4
     yposition: 0
     orientation: 0
 
-- tag: baseBuilding4
+- tag_name: baseBuilding4
   attributes:
     type: LivingQuarters
     xposition: 2
     yposition: 4
     orientation: 90
 
-- tag: baseBuilding5
+- tag_name: baseBuilding5
   attributes:
     type: Radar
     xposition: 1
     yposition: 4
     orientation: 0
 
-- tag: baseBuilding6
+- tag_name: baseBuilding6
   attributes:
     type: Storeroom
     xposition: 4
     yposition: 4
     orientation: 0
 
-- tag: baseBuilding7
+- tag_name: baseBuilding7
   attributes:
     type: Laboratory
     xposition: 1
     yposition: 2
     orientation: 0
 
-- tag: baseBuilding8
+- tag_name: baseBuilding8
   attributes:
     type: Workshop
     xposition: 4
     yposition: 2
     orientation: 0
 
-- tag: baseBuilding9
+- tag_name: baseBuilding9
   attributes:
     type: ""
     xposition: ""

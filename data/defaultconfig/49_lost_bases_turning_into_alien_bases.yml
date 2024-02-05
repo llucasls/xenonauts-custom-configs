@@ -1,15 +1,15 @@
 # LOST BASES TURNING INTO ALIEN BASES
-- tag: xenonautBaseRetakeWindow
+- tag_name: xenonautBaseRetakeWindow
   attributes:
     value: 0
     comment: "If greater than 0, Xenonaut bases that have been lost in combat will be replaced by an alien base, and can be recaptured in this many hours"
 
-- tag: xenonautAlienBaseTickerConstant
+- tag_name: xenonautAlienBaseTickerConstant
   attributes:
     value: 0
     comment: "An alien base created in place of a Xenonaut base will have its ticker set to: xenonautAlienBaseTickerConstant + (global alien ticker * xenonautAlienBaseTickerMultiplier)"
 
-- tag: xenonautAlienBaseTickerMultiplier
+- tag_name: xenonautAlienBaseTickerMultiplier
   attributes:
     value: 1.0
     comment: "An alien base created in place of a Xenonaut base will have its ticker set to: xenonautAlienBaseTickerConstant + (global alien ticker * xenonautAlienBaseTickerMultiplier)"

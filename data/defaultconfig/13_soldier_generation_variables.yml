@@ -1,54 +1,54 @@
 # SOLDIER GENERATION VARIABLES
-- tag: minSoldierAge
+- tag_name: minSoldierAge
   attributes:
     value: 21
     comment: "The minimal age of a soldier."
 
-- tag: maxSoldierAge
+- tag_name: maxSoldierAge
   attributes:
     value: 35
     comment: "The maximal age of a soldier."
 
-- tag: femaleSoldierChance
+- tag_name: femaleSoldierChance
   attributes:
     value: 35
     comment: "The percent chance that a generated soldier is a female"
 
-- tag: soldierStats
+- tag_name: soldierStats
   attributes:
     comment: "Soldier's stats are generated with values in the specified range."
-  children:
-  - tag: actionPoints
+  child_nodes:
+  - tag_name: actionPoints
     attributes:
       min: 40
       max: 65
 
-  - tag: resilence
+  - tag_name: resilence
     attributes:
       min: 35
       max: 65
 
-  - tag: strength
+  - tag_name: strength
     attributes:
       min: 35
       max: 65
 
-  - tag: accuracy
+  - tag_name: accuracy
     attributes:
       min: 35
       max: 65
 
-  - tag: reflexes
+  - tag_name: reflexes
     attributes:
       min: 35
       max: 65
 
-  - tag: bravery
+  - tag_name: bravery
     attributes:
       min: 35
       max: 65
 
-- tag: startingSoldiersStatBonus
+- tag_name: startingSoldiersStatBonus
   attributes:
     value: 3
     comment: "Bonus applied to starting soldiers' stats"

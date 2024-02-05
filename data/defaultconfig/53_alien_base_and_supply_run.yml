@@ -1,15 +1,15 @@
 # ALIEN BASE AND SUPPLY RUN (Passive)
-- tag: alienBaseTickerPerMinute
+- tag_name: alienBaseTickerPerMinute
   attributes:
     value: 0
     comment: "An alien base generates this many ticker points per minute after being built, even if undetected."
 
-- tag: supplyRunTicker
+- tag_name: supplyRunTicker
   attributes:
     value: 0
     comment: "A successful alien supply run mission to a base generates this many ticker points."
 
-- tag: alienBaseRelationsDamagePerDay
+- tag_name: alienBaseRelationsDamagePerDay
   attributes:
     value: 6.0
     comment: "An alien base damages relations in its continent by this much every day (24 hours)"

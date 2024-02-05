@@ -1,5 +1,5 @@
 # GEOSCAPE DARKNESS / NIGHTMAP OPACITY
-- tag: lightmapAlpha
+- tag_name: lightmapAlpha
   attributes:
     value: 0.30
     comment: "The opacity value of the light map over the earth view."

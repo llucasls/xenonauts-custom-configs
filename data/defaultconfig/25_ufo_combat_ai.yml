@@ -1,5 +1,5 @@
 # UFO COMBAT AI
-- tag: airCombatAIThinkChance
+- tag_name: airCombatAIThinkChance
   attributes:
     difficultyEasy: 0
     difficultyNormal: 0
@@ -7,7 +7,7 @@
     difficultySuperhuman: 1
     comment: "This controls UFO AI thinking in Air Combat. The higher this value is (between 0 and 1), the more likely UFOs will each second consider swapping to a better target."
 
-- tag: ufoEscortInboundFactor
+- tag_name: ufoEscortInboundFactor
   attributes:
     valueEasy: 0
     valueNormal: 0

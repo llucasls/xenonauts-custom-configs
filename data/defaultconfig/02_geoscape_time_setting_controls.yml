@@ -1,25 +1,25 @@
 # GEOSCAPE TIME SETTING CONTROLS
-- tag: gameSpeed1
+- tag_name: gameSpeed1
   attributes:
     value: 0.08333
     comment: "Game minutes elapsing per second on lowest speed setting."
 
-- tag: gameSpeed2
+- tag_name: gameSpeed2
   attributes:
     value: 30
     comment: "Game minutes elapsing per second on second lowest speed setting."
 
-- tag: gameSpeed3
+- tag_name: gameSpeed3
   attributes:
     value: 120
     comment: "Game minutes elapsing per second on second highest speed setting." 
 
-- tag: gameSpeed4
+- tag_name: gameSpeed4
   attributes:
     value: 720
     comment: "Game minutes elapsing per second on highest speed setting." 
 
-- tag: startingTime
+- tag_name: startingTime
   attributes:
     year: 1979
     month: 9

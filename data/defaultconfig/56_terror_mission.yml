@@ -1,10 +1,10 @@
 # TERROR MISSION (Passive)
-- tag: terrorMissionDelay
+- tag_name: terrorMissionDelay
   attributes:
     value: 14
     comment: "Minimum time elapsed between two terror missions, in days"
 
-- tag: terrorMissionDuration
+- tag_name: terrorMissionDuration
   attributes:
     min: 12
     max: 24

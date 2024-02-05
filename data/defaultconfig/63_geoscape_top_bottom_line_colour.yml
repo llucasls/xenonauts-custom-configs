@@ -1,20 +1,20 @@
 # GEOSCAPE TOP / BOTTOM LINE COLOUR
-- tag: earthBorderColorRed
+- tag_name: earthBorderColorRed
   attributes:
     value: 0.15
     comment: "The border color of the earth view. Red   component."
 
-- tag: earthBorderColorGreen
+- tag_name: earthBorderColorGreen
   attributes:
     value: 0.15
     comment: "The border color of the earth view. Green component."
 
-- tag: earthBorderColorBlue
+- tag_name: earthBorderColorBlue
   attributes:
     value: 0.15
     comment: "The border color of the earth view. Blue  component."
 
-- tag: earthBorderColorAlpha
+- tag_name: earthBorderColorAlpha
   attributes:
     value: 0.15
     comment: "The border color of the earth view. Alpha component."

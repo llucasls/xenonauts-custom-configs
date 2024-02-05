@@ -1,66 +1,66 @@
 # FUNDING MODIFIERS
   # Each month, a funding region will pay the player $500 for each relations value point, multiplied by this modifier
-- tag: continentModNA
+- tag_name: continentModNA
   attributes:
     value: 1.4
     comment: "North America modifies its funding by this value."
 
-- tag: continentModCA
+- tag_name: continentModCA
   attributes:
     value: 1.15
     comment: "Central America modifies its funding by this value."
 
-- tag: continentModSA
+- tag_name: continentModSA
   attributes:
     value: 1.15
     comment: "South America modifies its funding by this value."
 
-- tag: continentModEU
+- tag_name: continentModEU
   attributes:
     value: 1.15
     comment: "Europe modifies its funding by this value."
 
-- tag: continentModRU
+- tag_name: continentModRU
   attributes:
     value: 1.5
     comment: "USSR modifies its funding by this value."
 
-- tag: continentModNAF
+- tag_name: continentModNAF
   attributes:
     value: 0.80
     comment: "North Africa modifies its funding by this value."
 
-- tag: continentModSAF
+- tag_name: continentModSAF
   attributes:
     value: 1.15
     comment: "South Africa modifies its funding by this value."
 
-- tag: continentModME
+- tag_name: continentModME
   attributes:
     value: 0.85
     comment: "Middle East modifies its funding by this value."
 
-- tag: continentModIN
+- tag_name: continentModIN
   attributes:
     value: 0.85
     comment: "Indochina modifies its funding by this value."
 
-- tag: continentModAA
+- tag_name: continentModAA
   attributes:
     value: 1.15
     comment: "Australasia modifies its funding by this value."
 
-- tag: forecastChangeRounding
+- tag_name: forecastChangeRounding
   attributes:
     value: 1_000
     comment: "The forecast funding change shown on geoscape will be rounded to multiples of this value"
 
-- tag: forecastChangeImpreciseLevel
+- tag_name: forecastChangeImpreciseLevel
   attributes:
     value: 0
     comment: "The forecast funding change shown on geoscape will be shown as text depending on (not) exceeding this this value, if not 0."
 
-- tag: relationsCap
+- tag_name: relationsCap
   attributes:
     value: 2.0
     comment: "Multiplied by the starting relations score for each region to give the maximum value that nations relations can reach"

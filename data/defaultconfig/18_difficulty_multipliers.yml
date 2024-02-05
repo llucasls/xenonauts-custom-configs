@@ -1,129 +1,129 @@
 # DIFFICULTY MULTIPLIERS
   # The values for each are multiplied by these numbers
-- tag: alienTickerSpeedEasy
+- tag_name: alienTickerSpeedEasy
   attributes:
     value: 0.8
 
-- tag: alienTickerSpeedNormal
+- tag_name: alienTickerSpeedNormal
   attributes:
     value: 0.9
 
-- tag: alienTickerSpeedVeteran
+- tag_name: alienTickerSpeedVeteran
   attributes:
     value: 0.9
 
-- tag: alienTickerSpeedSuperhuman
+- tag_name: alienTickerSpeedSuperhuman
   attributes:
     value: 1.0
 
-- tag: ufoHealthEasy
+- tag_name: ufoHealthEasy
   attributes:
     value: 0.75
 
-- tag: ufoHealthNormal
+- tag_name: ufoHealthNormal
   attributes:
     value: 1.0
 
-- tag: ufoHealthVeteran
+- tag_name: ufoHealthVeteran
   attributes:
     value: 1.0
 
-- tag: ufoHealthSuperhuman
+- tag_name: ufoHealthSuperhuman
   attributes:
     value: 1.0
 
-- tag: alienAttributeEasy
+- tag_name: alienAttributeEasy
   attributes:
     value: 0.7
 
-- tag: alienAttributeNormal
+- tag_name: alienAttributeNormal
   attributes:
     value: 0.8
 
-- tag: alienAttributeVeteran
+- tag_name: alienAttributeVeteran
   attributes:
     value: 1.0
 
-- tag: alienAttributeSuperhuman
+- tag_name: alienAttributeSuperhuman
   attributes:
     value: 1.25
 
-- tag: alienWeaponDamageEasy
+- tag_name: alienWeaponDamageEasy
   attributes:
     value: 0.6
 
-- tag: alienWeaponDamageNormal
+- tag_name: alienWeaponDamageNormal
   attributes:
     value: 0.8
 
-- tag: alienWeaponDamageVeteran
+- tag_name: alienWeaponDamageVeteran
   attributes:
     value: 1.0
 
-- tag: alienWeaponDamageSuperhuman
+- tag_name: alienWeaponDamageSuperhuman
   attributes:
     value: 1.1
 
-- tag: alienWeaponAccuracyEasy
+- tag_name: alienWeaponAccuracyEasy
   attributes:
     value: 0.6
 
-- tag: alienWeaponAccuracyNormal
+- tag_name: alienWeaponAccuracyNormal
   attributes:
     value: 0.8
 
-- tag: alienWeaponAccuracyVeteran
+- tag_name: alienWeaponAccuracyVeteran
   attributes:
     value: 1.0
 
-- tag: alienWeaponAccuracySuperhuman
+- tag_name: alienWeaponAccuracySuperhuman
   attributes:
     value: 1.25
 
-- tag: humanAirplaneSpeedEasy
+- tag_name: humanAirplaneSpeedEasy
   attributes:
     value: 1.2
 
-- tag: humanAirplaneSpeedNormal
+- tag_name: humanAirplaneSpeedNormal
   attributes:
     value: 1.1
 
-- tag: humanAirplaneSpeedVeteran
+- tag_name: humanAirplaneSpeedVeteran
   attributes:
     value: 1.0
 
-- tag: humanAirplaneSpeedSuperhuman
+- tag_name: humanAirplaneSpeedSuperhuman
   attributes:
     value: 1.0
 
-- tag: humanAirplaneRangeEasy
+- tag_name: humanAirplaneRangeEasy
   attributes:
     value: 1.2
 
-- tag: humanAirplaneRangeNormal
+- tag_name: humanAirplaneRangeNormal
   attributes:
     value: 1.1
 
-- tag: humanAirplaneRangeVeteran
+- tag_name: humanAirplaneRangeVeteran
   attributes:
     value: 1.0
 
-- tag: humanAirplaneRangeSuperhuman
+- tag_name: humanAirplaneRangeSuperhuman
   attributes:
     value: 0.8
 
-- tag: maintenanceModifierEasy
+- tag_name: maintenanceModifierEasy
   attributes:
     value: 0.75
 
-- tag: maintenanceModifierNormal
+- tag_name: maintenanceModifierNormal
   attributes:
     value: 0.9
 
-- tag: maintenanceModifierVeteran
+- tag_name: maintenanceModifierVeteran
   attributes:
     value: 1.0
 
-- tag: maintenanceModifierSuperhuman
+- tag_name: maintenanceModifierSuperhuman
   attributes:
     value: 1.0

@@ -1,10 +1,10 @@
 # AFTERBURNER PARAMETERS
-- tag: afterBurnerFuelMultiplier
+- tag_name: afterBurnerFuelMultiplier
   attributes:
     value: 3.0
     comment: "Afterburner fuel consumption multiplier when active."
 
-- tag: afterBurnerSpeedMultiplier
+- tag_name: afterBurnerSpeedMultiplier
   attributes:
     value: 1.5
     comment: "Afterburner speed multiplier."

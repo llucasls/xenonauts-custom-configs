@@ -1,5 +1,5 @@
 # EVASIVE ROLL PARAMETERS
-- tag: rollSideSpeed
+- tag_name: rollSideSpeed
   attributes:
     valueEasy: 4
     valueNormal: 4
@@ -8,32 +8,32 @@
     valueUfo: 4
     comment: "Aircraft move this far sideways when using the Roll maneuver."
 
-- tag: evadeFuelMultiplier
+- tag_name: evadeFuelMultiplier
   attributes:
     value: 1
     comment: "Multiplies fuel consumption in air combat while Roll is active."
 
-- tag: evadeLength
+- tag_name: evadeLength
   attributes:
     value: 0.6
     comment: "This is the time taken to perform the Roll manouver."
 
-- tag: evadeCooldown
+- tag_name: evadeCooldown
   attributes:
     value: 1
     comment: "This is the cooldown for the Roll manouver."
 
-- tag: evadeChance
+- tag_name: evadeChance
   attributes:
     value: 0.3
     comment: "DEPRECATED - This is the chance that evading a projectile will be successful when evading is active."
 
-- tag: autoresolveHeavyMissileEscortBonus
+- tag_name: autoresolveHeavyMissileEscortBonus
   attributes:
     value: 0.25
     comment: "How much do heavy missiles count against evading escorts of non-evading UFOs."
 
-- tag: autoresolveNormalMissileEvadePenalty
+- tag_name: autoresolveNormalMissileEvadePenalty
   attributes:
     value: 0.8
     comment: "How much do normal missiles count against evading targets."

@@ -1,5 +1,5 @@
 # SINGLE MISSIONS' START DELAY
-- tag: alienMissionMaxStartDelay
+- tag_name: alienMissionMaxStartDelay
   attributes:
     value: 30
     comment: "Maximum time (in minutes) between wave spawn time and each single alien mission spawn"

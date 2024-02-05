@@ -1,15 +1,15 @@
 # PERSONNEL RECRUITMENT AND SALARY COSTS
-- tag: scientistCost
+- tag_name: scientistCost
   attributes:
     value: 10_000
     comment: "The initial hire cost for a scientist and his monthly wage."
 
-- tag: technicianCost
+- tag_name: technicianCost
   attributes:
     value: 5_000
     comment: "The initial hire cost for an engineer and his monthly wage."
 
-- tag: soldierCost
+- tag_name: soldierCost
   attributes:
     value: 10_000
     comment: "The initial hire cost for a soldier and his monthly wage."

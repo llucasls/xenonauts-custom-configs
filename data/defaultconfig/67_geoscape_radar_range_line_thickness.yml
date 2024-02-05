@@ -1,5 +1,5 @@
 # GEOSCAPE RADAR RANGE LINE THICKNESS
-- tag: lwRadarRangeThickness
+- tag_name: lwRadarRangeThickness
   attributes:
     value: 2
     comment: "The thickness of the long wave radar range indicator line."

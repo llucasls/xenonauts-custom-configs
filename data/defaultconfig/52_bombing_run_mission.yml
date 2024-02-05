@@ -1,20 +1,20 @@
 # BOMBING RUN MISSION (Passive)
-- tag: bombingRunTicksPerMinute
+- tag_name: bombingRunTicksPerMinute
   attributes:
     value: 0
     comment: "An alien bombing run mission generates this many alien ticker points per minute of the UFO being on the map."
 
-- tag: bombingRunGAEventChance
+- tag_name: bombingRunGAEventChance
   attributes:
     value: 30
-    comment: "An alien bombing run mission has this percentage chance of generating a Major Ground Attack event per hour."
+    comment: "An alien bombing run mission has this percentag_namee chance of generating a Major Ground Attack event per hour."
 
-- tag: bombingRunAerialTerrorChance
+- tag_name: bombingRunAerialTerrorChance
   attributes:
     value: 5
-    comment: "An alien ground attack mission has this percentage chance of generating an Aerial Terror event per hour."
+    comment: "An alien ground attack mission has this percentag_namee chance of generating an Aerial Terror event per hour."
 
-- tag: aerialTerrorMissionDuration
+- tag_name: aerialTerrorMissionDuration
   attributes:
     min: 12
     max: 24

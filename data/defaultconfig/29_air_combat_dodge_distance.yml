@@ -1,5 +1,5 @@
 # AIR COMBAT DODGE DISTANCE
-- tag: airCombatDodgeDistance
+- tag_name: airCombatDodgeDistance
   attributes:
     value: 1.5
     comment: "UFOs will dodge missiles targeting them when they are this distance away"

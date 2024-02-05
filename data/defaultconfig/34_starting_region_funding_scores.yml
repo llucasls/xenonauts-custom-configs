@@ -1,50 +1,50 @@
 # STARTING REGION FUNDING SCORES
-- tag: continentInitRelationNA
+- tag_name: continentInitRelationNA
   attributes:
     value: 640
     comment: "The initial relations value for North America."
 
-- tag: continentInitRelationCA
+- tag_name: continentInitRelationCA
   attributes:
     value: 300
     comment: "The initial relations value for Central America."
 
-- tag: continentInitRelationSA
+- tag_name: continentInitRelationSA
   attributes:
     value: 500
     comment: "The initial relations value for South America."
 
-- tag: continentInitRelationEU
+- tag_name: continentInitRelationEU
   attributes:
     value: 500
     comment: "The initial relations value for Europe."
 
-- tag: continentInitRelationRU
+- tag_name: continentInitRelationRU
   attributes:
     value: 625
     comment: "The initial relations value for USSR."
 
-- tag: continentInitRelationNAF
+- tag_name: continentInitRelationNAF
   attributes:
     value: 500
     comment: "The initial relations value for North Africa."
 
-- tag: continentInitRelationSAF
+- tag_name: continentInitRelationSAF
   attributes:
     value: 500
     comment: "The initial relations value for South Africa."
 
-- tag: continentInitRelationME
+- tag_name: continentInitRelationME
   attributes:
     value: 400
     comment: "The initial relations value for Middle East."
 
-- tag: continentInitRelationIN
+- tag_name: continentInitRelationIN
   attributes:
     value: 600
     comment: "The initial relations value for Indochina."
 
-- tag: continentInitRelationAA
+- tag_name: continentInitRelationAA
   attributes:
     value: 500
     comment: "The initial relations value for Australasia."

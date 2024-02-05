@@ -1,35 +1,35 @@
 # TERROR FAILURE PENALTY
-- tag: terrorFailurePenalty
+- tag_name: terrorFailurePenalty
   attributes:
     value: 500
     comment: "Penalty applied to the region relations when a terror event results in failure (no engagement by Xenonauts or GC loss)"
 
-- tag: aerialTerrorFailurePenalty
+- tag_name: aerialTerrorFailurePenalty
   attributes:
     value: 250
     comment: "Penalty applied to the region relations when an Aerial Terror event results in failure (no engagement by Xenonauts or AC loss)"
 
-- tag: terrorSuccessBonus
+- tag_name: terrorSuccessBonus
   attributes:
     value: 150
     comment: "Bonus granted to the region relations if a terror site is successfully secured"
 
-- tag: terrorCivilianSurvivedBonus
+- tag_name: terrorCivilianSurvivedBonus
   attributes:
     value: 0
     comment: "Extra relations bonus for every civilian that survived a terror mission"
 
-- tag: terrorLocalForcesSurvivedBonus
+- tag_name: terrorLocalForcesSurvivedBonus
   attributes:
     value: 0
     comment: "Extra relations bonus for every local forces fighter that survived a terror mission"
 
-- tag: crashsiteFundingBonus
+- tag_name: crashsiteFundingBonus
   attributes:
     value: "false"
     comment: "Controls whether doing crash sites grants a relations bonus with the region"
 
-- tag: crashsiteFundingModifier
+- tag_name: crashsiteFundingModifier
   attributes:
     value: 1.0
     comment: "If relations bonus for crash sites is enabled, the bonus is the shootdown bonus multiplied by this value"

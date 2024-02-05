@@ -1,40 +1,40 @@
 # AIRCRAFT REFUEL / REARM RATES
-- tag: refuelRate
+- tag_name: refuelRate
   attributes:
     value: 0.40
     comment: "The percent refueling rate for aircraft"
 
-- tag: repairRate
+- tag_name: repairRate
   attributes:
     value: 0.02
     comment: "The percent repairing rate for aircraft"
 
-- tag: rearmTime
+- tag_name: rearmTime
   attributes:
     value: 40
     comment: "Minutes needed to rearm each weapon slot of an airplane"
 
-- tag: recoverTime
+- tag_name: recoverTime
   attributes:
     value: 72
     comment: "Hours needed to recover an airplane from 0% to 1% (Above 1% will use repairRate)"
 
-- tag: rearmBeforeRefuel
+- tag_name: rearmBeforeRefuel
   attributes:
     value: "false"
     comment: "Whether airplane rearming is done before refuelling"
 
-- tag: minHealthToLaunch
+- tag_name: minHealthToLaunch
   attributes:
     value: 50
     comment: "The percent of health an airplane must have in order to be able to launch"
 
-- tag: minFuelToLaunch
+- tag_name: minFuelToLaunch
   attributes:
     value: 50
     comment: "The percent of fuel an airplane must have in order to be able to launch"
 
-- tag: fullArmamentToLaunch
+- tag_name: fullArmamentToLaunch
   attributes:
     value: "true"
     comment: "Whether an airplane must be fully armed before it can be launched"

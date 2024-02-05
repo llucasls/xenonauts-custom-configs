@@ -1,5 +1,5 @@
 # ITEM TRANSFER COST BETWEEN BASES
-- tag: xferCost
+- tag_name: xferCost
   attributes:
     value: 0.1
     comment: "The transfer cost for an item when it transferred from one base to another. This value is multiplied by the item's sell value."

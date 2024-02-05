@@ -1,15 +1,15 @@
 # AIR SUPERIORITY MISSION (Aggressive)
-- tag: airSuperiorityTicksPerMinute
+- tag_name: airSuperiorityTicksPerMinute
   attributes:
     value: 0
     comment: "An alien air superiority mission generates this many ticker points per minute the UFO is on the map."
 
-- tag: airSuperiorityAirlinerEventChance
+- tag_name: airSuperiorityAirlinerEventChance
   attributes:
     value: 20
-    comment: "An alien air superiority mission has this percentage chance per hour of generating an Airliner Destroyed event."
+    comment: "An alien air superiority mission has this percentag_namee chance per hour of generating an Airliner Destroyed event."
 
-- tag: airSuperiorityCooldownTime
+- tag_name: airSuperiorityCooldownTime
   attributes:
     value: 1
     comment: "After having engaged in air combat, an alien air superiority mission won't intercept Xenonauts airplanes for this many hours"

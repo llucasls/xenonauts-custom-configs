@@ -2,403 +2,403 @@
   # Best not to play with these!
 
   # Special key names are: Enter, Escape, Tab, Backspace, Up, Down, Left, Right, Paste, PageUp, PageDown, ShiftKey, ControlKey, AltKey, Delete, F1, F2 ... F12 -->
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GEMapScrollUp
     key: "W"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GEMapScrollDown
     key: "S"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GEMapScrollLeft
     key: "A"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GEMapScrollRight
     key: "D"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GEZoomIn
     key: "="
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GEZoomIn
     key: "-"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GSResetCamera
     key: " "
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GSLaunchInterceptors
     key: "Q"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GSSpeed1
     key: "1"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GSSpeed2
     key: "2"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GSSpeed3
     key: "3"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GSSpeed4
     key: "4"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GSXenopedia
     key: "F10"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: BSGeoscape
     key: "F1"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: BSBase
     key: "F2"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: BSResearch
     key: "F3"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: BSWorkshop
     key: "F4"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: BSStore
     key: "F5"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: BSPersonnel
     key: "F6"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: BSEquip
     key: "F7"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: BSVehicle
     key: "F8"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: BSAircraft
     key: "F9"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: ACPause
     key: " "
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: ACRollLeft
     key: "Q"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: ACRollRight
     key: "E"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: ACSelect1
     key: "F1"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: ACSelect2
     key: "F2"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: ACSelect3
     key: "F3"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: ACSelectAll
     key: "F4"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: ACFire1
     key: "1"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: ACFire2
     key: "2"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: ACFire3
     key: "3"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: ACFire4
     key: "4"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: ACFireAll
     key: "5"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCFireModePrimary
     key: "R"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCFireModeSecondary
     key: "L"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCFireModeBurst
     key: "B"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCReserveTUNone
     key: ""
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCReserveTUSnap
     key: ""
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCReserveTUNormal
     key: ""
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCReserveTUAimed
     key: ""
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCReserveTUBurst
     key: ""
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCInventory
     key: "I"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCCrouch
     key: "C"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCAbort
     key: " "
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCEndTurn
     key: "T"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCCameraUp
     key: ""
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCCameraDown
     key: ""
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCCenterOnSoldier
     key: " "
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectSoldier1
     key: "1"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectSoldier2
     key: "2"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectSoldier3
     key: "3"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectSoldier4
     key: "4"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectSoldier5
     key: "5"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectSoldier6
     key: "6"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectSoldier7
     key: "7"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectSoldier8
     key: "8"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectSoldier9
     key: "9"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectSoldier10
     key: "0"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectSoldier11
     key: "1"
     shift: "true"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectSoldier12
     key: "2"
     shift: "true"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectSoldier13
     key: "3"
     shift: "true"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectSoldier14
     key: "4"
     shift: "true"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectSoldier15
     key: "5"
     shift: "true"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectSoldier16
     key: "6"
     shift: "true"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectVehicle1
     key: "1"
     ctrl: "true"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectVehicle2
     key: "2"
     ctrl: "true"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectVehicle3
     key: "3"
     ctrl: "true"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectVehicle4
     key: "4"
     ctrl: "true"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectSmartNextSoldier
     key: "Tab"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectSmartNextSoldierFinish
     key: "Tab"
     shift: "true"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectNextSoldier
     key: "N"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCSelectPreviousSoldier
     key: "B"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCMeleeAllWeapons
     key: "M"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCQuicksave
     key: "F5"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCQuickload
     key: "F8"
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCCenterOnNextAlien
     key: ""
 
-- tag: KeyMapping
+- tag_name: KeyMapping
   attributes:
     function: GCCenterOnPreviousAlien
     key: ""

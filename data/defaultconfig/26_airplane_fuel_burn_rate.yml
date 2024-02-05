@@ -1,10 +1,10 @@
 # AIRPLANE FUEL BURN RATE
-- tag: airCombatFuelBurnRate
+- tag_name: airCombatFuelBurnRate
   attributes:
     value: 100
     comment: "This is the multiplier for combat fuel consumption compared to Geoscape travel."
 
-- tag: airPatrolFuelBurnRate
+- tag_name: airPatrolFuelBurnRate
   attributes:
     value: 1.0
     comment: "This is the multiplier for fuel consumption when the airplane is patrolling."

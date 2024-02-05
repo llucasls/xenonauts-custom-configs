@@ -1,5 +1,5 @@
 # AIR COMBAT PROJECTILE / MISSILE PATH ALPHA
-- tag: projectileAlphaMod
+- tag_name: projectileAlphaMod
   attributes:
     value: 1
     comment: "This modifies the projectile / missile path alpha value."

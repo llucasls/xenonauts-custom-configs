@@ -1,15 +1,15 @@
 # LAND TIME VARIABLES FOR ALIEN MISSIONS
-- tag: minimumMissionsLandTime
+- tag_name: minimumMissionsLandTime
   attributes:
     value: 480
     comment: "The minimum landing time (in minutes) for the alien missions"
 
-- tag: localDetectionLongerLandingTime
+- tag_name: localDetectionLongerLandingTime
   attributes:
     value: 24
     comment: "If a landed UFO is detected by local forces, it will stay landed for this many hours longer, but not more than the next variable"
 
-- tag: localDetectionMaxLandingTime
+- tag_name: localDetectionMaxLandingTime
   attributes:
     value: 24
     comment: "If a landed UFO is detected by local forces, this is the cap on how many hours it will remain landed"

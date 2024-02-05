@@ -1,20 +1,20 @@
 # ALIEN BASE AUTOMATIC DISCOVERY
-- tag: alienBaseDiscoveryChance
+- tag_name: alienBaseDiscoveryChance
   attributes:
     value: 100
-    comment: "This is the percentage chance for an alien base to be discovered automatically whenever a check is performed using the value below."
+    comment: "This is the percentag_namee chance for an alien base to be discovered automatically whenever a check is performed using the value below."
 
-- tag: alienBaseReportChance
+- tag_name: alienBaseReportChance
   attributes:
     value: 0
-    comment: "This is the percentage chance that an alien base will be reported with its approximate location in the event log"
+    comment: "This is the percentag_namee chance that an alien base will be reported with its approximate location in the event log"
 
-- tag: alienBaseReportPreciseChance
+- tag_name: alienBaseReportPreciseChance
   attributes:
     value: 0
     comment: "If a base is getting reported (previous variable), this is the chance that the report will have a more precise location"
 
-- tag: alienBaseDiscoveryCycle
+- tag_name: alienBaseDiscoveryCycle
   attributes:
     value: 5
     comment: "This many days need to pass to have a chance to detect an alien base - Should this not be done on a monthly basis?"

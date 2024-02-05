@@ -1,5 +1,5 @@
 # BASE ATTACK MISSION (Aggressive)
-- tag: baseAttackMissionDelay
+- tag_name: baseAttackMissionDelay
   attributes:
     value: 20
     comment: "Minimum time elapsed between two base attack missions, in days"

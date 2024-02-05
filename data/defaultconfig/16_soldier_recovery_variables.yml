@@ -1,22 +1,22 @@
 # SOLDIER RECOVERY VARIABLES
   # Soldier recovery chance is as follows: soldiers at or below a certan HP Value will never be recovered.
   # For other soldiers, the chance to be recovered is: B + C * HP % , where B is a base chance, and C is a coefficient, with HP being the soldier's hit points (0 or less)
-- tag: soldierUnrecoverableHitPoints
+- tag_name: soldierUnrecoverableHitPoints
   attributes:
     value: -20
     comment: "Soldiers whose health is at or below this number will never be recovered"
 
-- tag: soldierBaseRecoveryChance
+- tag_name: soldierBaseRecoveryChance
   attributes:
     value: 50
     comment: "The base recovery chance at 0 HP. This is B in the recovery formula"
 
-- tag: soldierRecoveryDecreaseCoefficient
+- tag_name: soldierRecoveryDecreaseCoefficient
   attributes:
     value: 2.5
     comment: "Recovery chance drops by this many percent for every HP below zero - this is C in the formula"
 
-- tag: overkillDamage
+- tag_name: overkillDamage
   attributes:
     value: 0
     comment: "Soldiers whose HP drop below this value will be considered to have been killed with overdamage. Specify a negative number (e.g. -50) to activate. If set to 0 or greater, this is not triggered"
