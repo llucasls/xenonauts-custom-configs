@@ -33,6 +33,9 @@ gameconfig.xml: $(GAME_CONFIGS) | $(VENV)
 		else printf 'Game configuration file %s was created successfully!\n' "$@"; \
 	fi
 
-.PHONY: all
+clean:
+	rm -f gameconfig.xml
+
+.PHONY: all clean
 
 .SILENT: $(VENV) gameconfig.xml
