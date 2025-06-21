@@ -1,0 +1,5 @@
+# OVERKILL / UFO DESTRUCTION HP LIMIT
+- tag_name: overkillPercent
+  attributes:
+    value: 30
+    comment: "If a UFO takes more than this percentag_namee of their HP as damage below 0 HP, it will explode instead of crashlanding."

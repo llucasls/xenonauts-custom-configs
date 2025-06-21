@@ -1,0 +1,33 @@
+# LOST CONTINENTS LIMIT
+- tag_name: lostContinentsLimit
+  child_nodes:
+  - tag_name: Easy
+    attributes:
+      value: 5
+
+  - tag_name: Normal
+    attributes:
+      value: 5
+
+  - tag_name: Veteran
+    attributes:
+      value: 4
+
+  - tag_name: Insane
+    attributes:
+      value: 4
+
+- tag_name: retakeLostContinents
+  attributes:
+    value: 1
+    comment: "If set to 1, lost continents may be retaken by eliminating bases in them"
+
+- tag_name: lostContinentBaseTicker
+  attributes:
+    value: -1
+    comment: "Ticker (for size) assigned to the auto-spawning alien base on a lost continent. If set to a negative number, it uses the main alien ticker"
+
+- tag_name: retakenContinentTicker
+  attributes:
+    value: 500
+    comment: "If a continent is retaken, relations will restart at this point"

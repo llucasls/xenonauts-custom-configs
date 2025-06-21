@@ -1,0 +1,5 @@
+# TURNING SPEED DECREASE VALUE
+- tag_name: airCombatTurnSpeedDecrease
+  attributes:
+    value: 0.75
+    comment: "Aircraft / UFO speed decreases by amount while performing a turn"

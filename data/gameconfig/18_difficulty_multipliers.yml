@@ -1,0 +1,129 @@
+# DIFFICULTY MULTIPLIERS
+  # The values for each are multiplied by these numbers
+- tag_name: alienTickerSpeedEasy
+  attributes:
+    value: 0.8
+
+- tag_name: alienTickerSpeedNormal
+  attributes:
+    value: 0.9
+
+- tag_name: alienTickerSpeedVeteran
+  attributes:
+    value: 0.9
+
+- tag_name: alienTickerSpeedSuperhuman
+  attributes:
+    value: 1.0
+
+- tag_name: ufoHealthEasy
+  attributes:
+    value: 0.75
+
+- tag_name: ufoHealthNormal
+  attributes:
+    value: 1.0
+
+- tag_name: ufoHealthVeteran
+  attributes:
+    value: 1.0
+
+- tag_name: ufoHealthSuperhuman
+  attributes:
+    value: 1.0
+
+- tag_name: alienAttributeEasy
+  attributes:
+    value: 0.7
+
+- tag_name: alienAttributeNormal
+  attributes:
+    value: 0.8
+
+- tag_name: alienAttributeVeteran
+  attributes:
+    value: 1.0
+
+- tag_name: alienAttributeSuperhuman
+  attributes:
+    value: 1.25
+
+- tag_name: alienWeaponDamageEasy
+  attributes:
+    value: 0.6
+
+- tag_name: alienWeaponDamageNormal
+  attributes:
+    value: 0.8
+
+- tag_name: alienWeaponDamageVeteran
+  attributes:
+    value: 1.0
+
+- tag_name: alienWeaponDamageSuperhuman
+  attributes:
+    value: 1.1
+
+- tag_name: alienWeaponAccuracyEasy
+  attributes:
+    value: 0.6
+
+- tag_name: alienWeaponAccuracyNormal
+  attributes:
+    value: 0.8
+
+- tag_name: alienWeaponAccuracyVeteran
+  attributes:
+    value: 1.0
+
+- tag_name: alienWeaponAccuracySuperhuman
+  attributes:
+    value: 1.25
+
+- tag_name: humanAirplaneSpeedEasy
+  attributes:
+    value: 1.2
+
+- tag_name: humanAirplaneSpeedNormal
+  attributes:
+    value: 1.1
+
+- tag_name: humanAirplaneSpeedVeteran
+  attributes:
+    value: 1.0
+
+- tag_name: humanAirplaneSpeedSuperhuman
+  attributes:
+    value: 1.0
+
+- tag_name: humanAirplaneRangeEasy
+  attributes:
+    value: 1.2
+
+- tag_name: humanAirplaneRangeNormal
+  attributes:
+    value: 1.1
+
+- tag_name: humanAirplaneRangeVeteran
+  attributes:
+    value: 1.0
+
+- tag_name: humanAirplaneRangeSuperhuman
+  attributes:
+    value: 0.8
+
+- tag_name: maintenanceModifierEasy
+  attributes:
+    value: 0.75
+
+- tag_name: maintenanceModifierNormal
+  attributes:
+    value: 0.9
+
+- tag_name: maintenanceModifierVeteran
+  attributes:
+    value: 1.0
+
+- tag_name: maintenanceModifierSuperhuman
+  attributes:
+    value: 1.0

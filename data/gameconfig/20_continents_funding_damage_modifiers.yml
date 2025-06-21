@@ -1,0 +1,19 @@
+# CONTINENTS FUNDING DAMAGE MODIFIERS
+  # Funding damage caused by alien missions to continents is multiplied by the value corresponding to the current difficulty settings
+- tag_name: fundingDamageModifier
+  child_nodes:
+  - tag_name: Easy
+    attributes:
+      value: 0.5
+
+  - tag_name: Normal
+    attributes:
+      value: 0.75
+
+  - tag_name: Veteran
+    attributes:
+      value: 1.0
+
+  - tag_name: Insane
+    attributes:
+      value: 1.25

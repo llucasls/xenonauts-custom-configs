@@ -1,0 +1,18 @@
+# OTHER SOLDIER VARIABLES
+  # soldier carry capacity, which is the maximum carry capacity before getting TU penalties,
+  # is calculated by doing: BaseSoldierCarryingCapacity + strength * SoldierCarryingCapacityStrengthMul
+- tag_name: BaseSoldierCarryingCapacity
+  attributes:
+    value: 8
+    comment: "This value is used to calculate soldier carrying capacity."
+
+- tag_name: SoldierCarryingCapacityStrengthMul
+  attributes:
+    value: 0.3
+    comment: "The percentag_namee of soldier strength used in the carrying capacity formula."
+
+  # after weigth goes over soldier carry capacity, the TUs will decrease linearly, down to 0 when he has soldierCarryCapacity * limitCarryCapacityMul KGs on his shoulder
+- tag_name: limitCarryCapacityMul
+  attributes:
+    value: 2.0
+    comment: "Soldier's carry capacity is multiplicated by this number to get the point at which a soldier will be left at 0 TUs"

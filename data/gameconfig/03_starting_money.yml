@@ -1,0 +1,5 @@
+# STARTING MONEY
+- tag_name: startingMoney
+  attributes:
+    value: 4_000_000
+    comment: "The Xenonaut funds on new game start (before buying first base)"

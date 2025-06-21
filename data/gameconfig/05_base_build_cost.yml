@@ -1,0 +1,5 @@
+# BASE BUILD COST
+- tag_name: newBaseCost
+  attributes:
+    value: 500_000
+    comment: "The cost for a new base"
