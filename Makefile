@@ -29,7 +29,7 @@ else ifeq (NO_DIR,$(GAME_CONFIGS))
     $(error Input configurations directory not provided)
 endif
 
-all: $(OUTPUT_FILE) $(MODINFO)
+all: $(OUTPUT_FILE) $(MODINFO) link
 
 link: $(OUTPUT_DIR)
 
